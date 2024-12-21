@@ -8,6 +8,7 @@ The **MultiPDF-RAG** project is a Python-based application designed to facilitat
 
 
 ## Demo Video
+[MultiPDF-RAG.webm](https://github.com/user-attachments/assets/85eeb026-3b83-4bba-bcf7-890a3dad4d88)
 
 
 ## Features
@@ -33,3 +34,41 @@ The **MultiPDF-RAG** project is a Python-based application designed to facilitat
 - **LangChain** - A framework for integrating language models, facilitating the app’s ability to generate contextual answers.
   
 - **OpenAI API** - Powers the natural language processing capabilities, enabling accurate responses to user queries based on PDF content.
+
+## Steps to Run the MultiPDF-RAG Project on Your Local Machine:
+- ### Clone the Repository
+Open a terminal and run the following command to clone the repository:
+
+```
+git clone https://github.com/AmaanSyed110/MultiPDF-RAG.git
+```
+- ### Set Up a Virtual Environment
+It is recommended to use a virtual environment for managing dependencies:
+
+```
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate     # On Windows
+```
+- ### Install Dependencies
+Install the required packages listed in the ```requirements.txt``` file
+```
+pip install -r requirements.txt
+```
+- ### Add Your OpenAI API Key
+Create a ```.env``` file in the project directory and add your OpenAI API key:
+```
+OPENAI_API_KEY=your_openai_api_key_here
+```
+- ### Run the Application
+Launch the Streamlit app by running the following command:
+```
+streamlit run app.py
+```
+- ### Upload PDF Documents
+Use the web interface to upload PDF files and start querying their content.
+
+- ### Interact with the Application
+Ask questions related to the PDFs, and the app will provide relevant responses based on the document content.
+
+
