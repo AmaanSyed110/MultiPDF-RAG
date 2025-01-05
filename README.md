@@ -71,4 +71,7 @@ Use the web interface to upload PDF files and start querying their content.
 - ### Interact with the Application
 Ask questions related to the PDFs, and the app will provide relevant responses based on the document content.
 
+## Contributions
+Contributions are welcome! Please fork the repository and create a pull request for any feature enhancements or bug fixes.
+
 
