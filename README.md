@@ -17,6 +17,8 @@ The **MultiPDF-RAG** project is a Python-based application designed to facilitat
 
 - **Smart Text Extraction**: Uses ```pdfplumber``` to extract readable content from uploaded PDFs.
 
+- **Embeddings**: Create vector embeddings with OpenAI's ```text-embedding-3-small```
+
 - **Efficient Search**: Leverages FAISS for fast similarity search and retrieval of relevant information.
 
 - **Interactive Q&A**: Powered by OpenAI's GPT-4 to provide insightful, context-aware answers to user questions.
