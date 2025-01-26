@@ -13,15 +13,15 @@ The **MultiPDF-RAG** project is a Python-based application designed to facilitat
 
 ## Features
 
-- **PDF Loading**: The app reads multiple PDF documents and extracts their text content.
+- **Upload PDFs**: Supports uploading multiple PDFs simultaneously for processing..
 
-- **Text Chunking**: The extracted text is divided into smaller chunks that can be processed effectively.
+- **Smart Text Extraction**: Uses ```pdfplumber``` to extract readable content from uploaded PDFs.
 
-- **Language Model**: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.
+- **Efficient Search**: Leverages FAISS for fast similarity search and retrieval of relevant information.
 
-- **Similarity Matching**: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
+- **Interactive Q&A**: Powered by OpenAI's GPT-4 to provide insightful, context-aware answers to user questions.
 
-- **Response Generation**: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
+- **Chat History**: Maintains a conversation buffer for seamless interactions.
 
 
 ## Tech Stack
@@ -29,9 +29,11 @@ The **MultiPDF-RAG** project is a Python-based application designed to facilitat
 
 - **Streamlit** - A lightweight framework for building the user interface, providing an interactive platform to query PDF documents.
   
-- **PyPDF2** - A Python library used to extract and manage text content from PDF files for analysis.
+- **pdfplumber** - A Python library used to extract readable text from PDFs.
   
 - **LangChain** - A framework for integrating language models, facilitating the app’s ability to generate contextual answers.
+
+- **FAISS** - High-performance similarity search for vector embeddings.
   
 - **OpenAI API** - Powers the natural language processing capabilities, enabling accurate responses to user queries based on PDF content.
 
