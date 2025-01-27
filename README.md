@@ -8,7 +8,7 @@ The **MultiPDF-RAG** project is a Python-based application designed to facilitat
 
 
 ## Demo Video
-[MultiPDF-RAG.webm](https://github.com/user-attachments/assets/85eeb026-3b83-4bba-bcf7-890a3dad4d88)
+[MultiPDF RAG.webm](https://github.com/user-attachments/assets/0021892a-5d21-4ac9-8604-4abcd280e60d)
 
 
 ## Features
