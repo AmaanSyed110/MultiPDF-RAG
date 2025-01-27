@@ -21,7 +21,7 @@ The **MultiPDF-RAG** project is a Python-based application designed to facilitat
 
 - **Efficient Search**: Leverages FAISS for fast similarity search and retrieval of relevant information.
 
-- **Interactive Q&A**: Powered by OpenAI's GPT-4 to provide insightful, context-aware answers to user questions.
+- **Interactive Q&A**: Powered by OpenAI's ```gpt-4o``` model to provide insightful, context-aware answers to user questions.
 
 - **Chat History**: Maintains a conversation buffer for seamless interactions.
 
