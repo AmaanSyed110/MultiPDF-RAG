@@ -1,7 +1,7 @@
 # MultiPDF-RAG
 
 ## Overview
-The **MultiPDF-RAG** project is a Python-based application designed to facilitate interactive querying across multiple PDF documents. By leveraging advanced language models, it enables users to input natural language questions and receive accurate, contextually relevant answers derived from the content of the loaded PDFs. This functionality is particularly beneficial for researchers, students, and professionals who need to efficiently extract and synthesize information from extensive document collections.
+The **MultiPDF-RAG** is a Python application designed to perform interactive querying on multiple PDFs. It employs advanced language models to allow for the input of natural language questions and obtains contextually appropriate answers based on the content in the loaded PDFs. It is very helpful for researchers, students, and professionals who are looking to obtain information from huge document collections by extracting and synthesizing it as efficiently as possible.
 
 ## How it works
 ![MultiPDF RAG](https://github.com/user-attachments/assets/6b013dbf-a138-4ae4-b809-0923331768bc)
